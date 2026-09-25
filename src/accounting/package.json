@@ -1,0 +1,17 @@
+{
+  "name": "student-accounting-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js version of the COBOL student account application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --runInBand"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
